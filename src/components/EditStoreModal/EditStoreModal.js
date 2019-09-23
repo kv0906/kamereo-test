@@ -7,8 +7,8 @@ import { get } from 'lodash';
 import * as Yup from 'yup';
 import { withFormik } from 'formik';
 import {Modal, Button, Form, FormGroup, Label, Input} from 'reactstrap';
-import { phoneRegex, addressList } from '../../helpers.js';
-import firebase from '../../Services/Firebase';
+import { phoneRegex } from '../../helpers.js';
+import firebase from '../../firebase';
 
 import { editStoreProfile } from '../../App/AppAction';
 

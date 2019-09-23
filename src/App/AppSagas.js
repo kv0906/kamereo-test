@@ -1,6 +1,6 @@
 import TYPE from './AppActionType';
 import { takeLatest, takeEvery, put, all} from 'redux-saga/effects';
-import { getStoreInfo, editStoreProfile } from '../Services/API/Api';
+import { getStoreInfo, editStoreProfile } from '../services/API/Api';
 import { toast } from 'react-toastify';
 
 function* fetchStoreInfoSaga(action) {
