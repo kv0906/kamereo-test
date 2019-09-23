@@ -1,0 +1,38 @@
+.edit-store-wrapper {
+    padding: 20px;
+    &__form {
+        display:flex;
+        &__upload {
+            margin-right: 50px;
+        }
+        &__basic-info {
+            width: 60%;
+            &__address {
+                display:flex;
+                div {
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+    .preview-store-image {
+        object-fit: cover;
+    }
+
+    .upload-progress {
+        width: 100%;
+    }
+    .btn {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .error-msg {
+        display:block;
+        color: red;
+        margin-top: 10px;
+    }
+}
+// override default boostrap modal style
+.modal-dialog {
+    max-width: 70% !important;
+}

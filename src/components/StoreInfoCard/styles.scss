@@ -1,0 +1,9 @@
+.store-info, .red-invoice-info {
+   display:flex;
+   &__meta {
+       margin-right: 20px;
+   }
+}
+.edit-btn {
+    width: 100%;
+}
