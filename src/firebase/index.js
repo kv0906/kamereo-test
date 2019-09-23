@@ -1,7 +1,7 @@
 import firebase from 'firebase';
 // Initialize Firebase
 const config = {
-  apiKey: 'AIzaSyDzqdL1jQLjwLvZovF3rbve0RhXr2KWfbQ',
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: 'kamereo-test.firebaseapp.com',
   databaseURL: 'https://kamereo-test.firebaseio.com',
   projectId: 'kamereo-test',

@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { bindActionCreators } from 'redux';
-import { connect } from 'react-redux';
 import { Container, Row, Col } from 'reactstrap';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -31,13 +29,4 @@ class App extends Component {
     );
   }
 }
-
-const mapStateToProps = state => ({
-  charities: state.app.charities,
-  donate: state.app.donate,
-});
-
-const mapDispatchToProps = dispatch => bindActionCreators({
-}, dispatch);
-
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default App;

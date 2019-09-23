@@ -5,6 +5,7 @@ import App from './App/App';
 import store from './Store'
 import { BrowserRouter, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+require('dotenv').config()
 
 ReactDOM.render(
   <Provider store={store}>
