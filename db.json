@@ -3,13 +3,13 @@
     {
       "id": 1,
       "name": "Ten ren",
-      "logoUrl": "https://firebasestorage.googleapis.com/v0/b/kamereo-test.appspot.com/o/images%2Fstar-wars-t-shirts-63-480x4801.jpg?alt=media&token=0b22f626-e625-4c05-b203-b72fcdeb517e",
-      "address": "Nguyen Thai Hoc",
-      "district": "D1",
+      "logoUrl": "https://firebasestorage.googleapis.com/v0/b/kamereo-test.appspot.com/o/images%2Ftenren.png?alt=media&token=2a955c08-70ed-40bd-ba27-21459bd6ab7c",
+      "address": "Cao Thang",
+      "district": "D3",
       "city": "TPHCM",
       "phone": "0933524792",
       "redInvoice": {
-        "name": "TP Tea",
+        "name": "Ten ren",
         "address": "Nguyen Thai Hoc",
         "district": "D1",
         "city": "TPHCM",
@@ -18,17 +18,17 @@
     },
     {
       "id": 2,
-      "logoUrl": "",
-      "name": "Phuc long",
+      "name": "The Alley",
+      "logoUrl": "https://firebasestorage.googleapis.com/v0/b/kamereo-test.appspot.com/o/images%2Fthealley.png?alt=media&token=cb9b2cb1-c1fd-4532-8661-35e416fb212d",
       "address": "Pham Hong Thai",
-      "district": "1",
-      "city": "HCM",
-      "phone": "093329292303",
+      "district": "D1",
+      "city": "TPHCM",
+      "phone": "09332944334",
       "redInvoice": {
         "name": "Phuc long INC",
         "address": "Pham Hong Thai",
-        "district": "1",
-        "city": "HCM",
+        "district": "D1",
+        "city": "TPHCM",
         "taxCode": "P777777"
       }
     }

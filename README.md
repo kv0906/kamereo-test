@@ -7,7 +7,8 @@
 
 ## Happy-case
 1. Work when all input is filled ( including upload image )
-    - Fetch data for specific store with id
+    - Fetch list store
+    - Fetch store detail
     - Edit store profile
 ## Limitation
 1. Did not cover feature auto delete image after a period of time

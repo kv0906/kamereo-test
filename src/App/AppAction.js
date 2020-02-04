@@ -4,6 +4,15 @@ export const handleStoreFetch = (payload = {}) => ({
   type: TYPE.HANDLE_STORE_FETCH,
   payload,
 });
+export const handleListStoreFetch = (payload = {}) => ({
+  type: TYPE.HANDLE_LIST_STORE_FETCH,
+  payload,
+});
+
+export const handleListStoreFetchSuccess = (payload = {}) => ({
+  type: TYPE.HANDLE_LIST_STORE_FETCH_SUCCESS,
+  payload,
+});
 
 export const handleStoreFetchSuccess = (payload = {}) => ({
   type: TYPE.HANDLE_STORE_FETCH_SUCCESS,

@@ -1,9 +1,15 @@
 .store-info, .red-invoice-info {
+    font-size: 14px;
    display:flex;
    &__meta {
        margin-right: 20px;
    }
 }
 .edit-btn {
+    &-wrapper {
+        width: 50%;
+        text-align: center;
+    }
+    margin: 10px 0;
     width: 100%;
 }

@@ -22,9 +22,17 @@
     .upload-progress {
         width: 100%;
     }
+    .btn-group {
+        margin: 20px 0;
+        align-items: center;
+        justify-content: flex-end;
+        display: flex;
+    }
     .btn {
-        width: 100%;
-        margin-bottom: 20px;
+        max-width: 150px;
+        &:first-child {
+            margin-right: 10px
+        }
     }
     .error-msg {
         display:block;

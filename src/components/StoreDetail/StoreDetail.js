@@ -3,19 +3,15 @@ import { Container, Row, Col } from 'reactstrap';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-// import StoreInfoCard from '../components/StoreInfoCard/StoreInfoCard';
+import StoreInfoCard from '../StoreInfoCard/StoreInfoCard';
 
-import './styles.scss';
-import ListStore from '../components/ListStore/ListStore';
-
-
-class App extends Component {
+class StoreDetail extends Component {
   render() {
     return (
       <Container className="main">
-        <h1>List stores</h1>
+        <h1>Store Information</h1>
         <hr/>
-        {/* <Row>
+        <Row>
           <Col md="4">
             <StoreInfoCard/>
           </Col>
@@ -24,15 +20,10 @@ class App extends Component {
               Delivery default message
             </textarea>
           </Col>
-        </Row> */}
-        <Row>
-          <Col>
-            <ListStore/>
-          </Col>
         </Row>
         <ToastContainer/>
       </Container>
     );
   }
 }
-export default App;
+export default StoreDetail;

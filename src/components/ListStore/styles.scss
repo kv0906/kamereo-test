@@ -1,0 +1,10 @@
+
+.list-store {
+    &-wrapper {
+         display: flex;
+    }
+    &-item-card {
+        margin-right: 20px;
+        max-width: 300px;
+    }
+}

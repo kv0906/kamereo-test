@@ -87,7 +87,9 @@ class StoreInfoCard extends Component {
                   <p className="">{redInvoice.taxCode}</p>
                 </div>
               </div>
-              <Button className="edit-btn" onClick={this.toggle} color="secondary">Edit Profile</Button>
+              <div className="edit-btn-wrapper">
+                <Button className="edit-btn" onClick={this.toggle} color="secondary">Edit Profile</Button>
+              </div>
             </CardBody>
           </Card>
         </div>

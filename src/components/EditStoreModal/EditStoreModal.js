@@ -233,8 +233,10 @@ class EditStoreForm extends Component {
                   />
                   {get(touched, 'redInvoice.taxCode') && get(errors, 'redInvoice.taxCode') ? <span className="error-msg">{get(errors, 'redInvoice.taxCode')}</span> : null}
                 </FormGroup>
-                <Button onClick={handleSubmit} type="submit" color="primary" className="btn">Save</Button>
-                <Button onClick={toggle} color="secondary" className="btn btn-cancel">Cancel</Button>
+                <div className="btn-group">
+                  <Button onClick={handleSubmit} type="submit" color="primary" className="btn">Save</Button>
+                  <Button onClick={toggle} color="secondary" className="btn btn-cancel">Cancel</Button>
+                </div>
               </Form>
             </div>
           </div>
